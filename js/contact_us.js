@@ -30,7 +30,7 @@ $(".contact_btn").on('click', function () {
                 handleResponse(response);
             },
             error: function () {
-                handleResponse({ type: 'error', text: 'Thankyou for contacting i will make sure to get back to you as soon as possible i am very active on LinkedIn so you can directly contact me there..' });
+                handleResponse({ type: 'error', text: 'Thankyou for contacting i will make sure to get back to you as soon as possible i am very active on LinkedIn so you can directly contact me there.' });
             }
         });
         
