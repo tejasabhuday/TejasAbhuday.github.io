@@ -93,7 +93,7 @@ section{padding: 0;}
 .font-weight-700{font-weight: 700;}
 
 /* button */
-.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 16px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: 'Roboto', sans-serif; font-weight: bold; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
+.btn {-webkit-appearances: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 16px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: 'Roboto', sans-serif; font-weight: bold; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
 /* Yellow button */
 .btn.btn-yellow {background: transparent ; border-color: #ffd700; color: #ffd700; }
 .btn.btn-yellow:hover {background: #dabd1d!important; border-color: #dabd1d; color: #202020!important}
@@ -340,8 +340,7 @@ header a.logo img {
     -webkit-animation: .8s rotate;
     animation: .8s rotate;
 }
-
-@-webkit-keyframes rotate {
+@keyframes rotate {
     from{
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
